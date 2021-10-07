@@ -1,0 +1,421 @@
+::-webkit-scrollbar {
+    width: 0.45em;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #000563;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color:#ef5964;
+  }
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+#row {
+    display: initial;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 2px -2px black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    z-index: 1;
+}
+
+.sticky {
+    position: -webkit-sticky;
+  position: sticky;
+}
+
+.logo {
+    padding: 8px 20px;
+    font-size: 24px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.gebr {
+    line-height: 0px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.dropd {
+    padding: 0px 20px;
+    z-index: 2;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 55px;
+    padding: 0px 14px;
+    text-decoration: none; 
+}
+
+nav ul li ul {
+    top: 45px;
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+#navUl {
+    padding-left: 0%;
+}
+
+nav ul li:hover ul  {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 222px;
+}
+
+nav ul li ul li a {
+    padding: 0px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    color: #000ac9;
+}
+button {
+    border-style: none;
+    background-color: #f3f3f3;
+}
+.loguit {
+ background-color: #fff;
+ width: 100%;
+ padding-right: 30px;
+ padding-top: 0px;
+}
+
+.fa-sign-out-alt{
+    font-size: 24px;
+    width: 32px;
+    padding-right: 37px;
+}
+
+.uitloggen {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-top: -16px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.text-left{
+    text-align: start;
+}
+
+.topnav{
+    background-color: #000563;
+    color: white;
+}
+
+.topnav input{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+  
+.topnav hr {
+    background-color: grey;
+    width: 220px;
+}
+
+nav ul li ul p {
+    color: rgba(0,0,0,.38);
+    font-size: 14px;
+    padding: 5px 14px;
+}
+
+
+nav ul li ul a {
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+    padding: 5px 14px;   
+}
+
+.fas {
+    color: grey;
+    vertical-align: middle;
+}
+
+.fa-user-circle {
+    color: white;
+    font-size: 31px;
+    margin: 10px;
+}
+
+.material-icons {
+    color: white;
+    font-size: 50px;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.fa-user {
+    margin-left: 3px;
+    font-size: 24px;
+    width: 20px;
+}
+
+.fa-cog {
+    font-size: 24px;
+    width: 24px;
+}
+
+.fa-shopping-basket{
+    font-size: 24px;
+    width: 24px;
+}
+
+.fa-question{
+    margin-left: 3px;
+    font-size: 24px;
+}
+
+.fa-sign-out-alt{
+    font-size: 24px;
+}
+
+.creds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.creds img{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.creds p{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
+
+.credss {
+    position: absolute;
+    right: 100px;
+    top: 5px;
+}
+
+.creds img{
+    vertical-align: middle;
+}
+
+
+
+.aantalcred{
+    vertical-align: middle; 
+}
+
+.zoekb {
+    width: 400px;
+}
+
+.knoppen{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 20px;
+    align-items: center;
+  }
+
+    .omschrijf  {
+        font-size: 11px;
+        margin-left: -20px;
+        width: 300px;
+        word-wrap: break-word;
+        background: gray;
+        word-wrap: break-word;
+        color: white;
+        overflow-y: auto;
+        border-radius: 16px;
+        resize: both;
+        height: 200px;
+      }
+
+.reacties  {
+ max-width: 100%;
+ width: 200px;
+ padding: 30px;
+ margin-bottom: 8px;
+ margin-top: 20px;
+ background: linear-gradient(-100deg, #000563, #242aa5);
+ color: floralwhite;
+ position: relative;
+ resize: both;
+ border-radius: 16px;
+ border: 2px solid;
+
+}
+.midden {
+  word-wrap: break-word;
+  margin-left: -1050px;
+
+}
+.uid {
+  position: absolute;
+  margin-left: 1030px;
+  margin-top: -29px;
+}
+.midkl {
+  position: relative;
+  margin-left: 1000px;
+  max-width: 45%;
+  word-wrap: break-word;
+  background: #fff;
+  word-wrap: break-word;
+  color: black;
+  overflow-y: auto;
+  border-radius: 16px;
+  resize: vertical;
+  height: 40px;
+}
+.date {
+  margin-left: 2000px;
+  position: absolute;
+  margin-top: -5px;
+}
+.geliked {
+  position: absolute;
+  font-size: 20px;
+  left: -45px;
+  margin-top: -50px;
+  color: black;
+  z-index: 4;
+}
+.like {
+  margin-top: -10px;
+}
+.dislike {
+  margin-top: 70px;
+}
+
+.memo{
+    
+    width: 27px;
+    height: auto;
+}
+
+.margincred {
+    margin-bottom: 50px;
+}
+
+.faq {
+    color: #000563;
+    display: flex;
+    flex-direction: column;
+}
+
+#myDIV {
+ display:none;
+ margin-left: 20px;
+}
+
+#myDIV2 {
+ display:none;
+ margin-left: 20px;
+}
+
+.faqbutton{
+    background-color: #fafafa;
+    color: #000563;
+}
+
+.fa-plus-circle {
+    vertical-align: baseline;
+}
+
+.knop {
+    background-color: #000563;
+    padding: 7px; 
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.fa-project-diagram {
+    color: white;
+    vertical-align: middle;
+}
+
+.fa-question {
+    color: white;
+}
+
+.fa-home {
+    vertical-align: middle;
+    color: white;
+}
+
+.fa-scroll {
+    vertical-align: middle;
+    color: white;
+}
+
+.fa-sign-in-alt {
+    color: white;
+}
+
+.fa-user-plus{
+    color: white;
+}
+
+.fa-plus {
+    vertical-align: middle;
+    color: white;
+}
+
+.fa-plus-circle {
+    color: #000563;
+}
+
+.tekstcolor{
+    color: black;
+}
+
+.faqcontainer{
+    margin-top: 50px;
+}

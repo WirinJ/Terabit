@@ -1,0 +1,27 @@
+.col-md-3 {
+    padding-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px rgb(0 0 0 / 10%);
+    border: none;
+}
+
+.project-image {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    padding-top: 10px;
+    color: #000563;
+}
+
+.btn-card {
+    margin-top: 10px;
+    background-color: #ef5964 !important;
+}
+
+.e-icon {
+    padding-top: 15px;
+}

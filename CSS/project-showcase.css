@@ -1,0 +1,364 @@
+body {
+    background-color: #000563;
+}
+
+.no-margin {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row-vh {
+    height: 220px;
+}
+
+.top-row {
+    /*margin-bottom: 10px;*/
+    background-color: #34c1d3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border-radius: 0 0 25px 25px;*/
+}
+
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.timeline {
+    z-index: 0;
+}
+
+.source-link {
+    color: white;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.source-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.second-row {
+    background-color: #ef5964;
+}
+
+.desc-title {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.description {
+    padding-top: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.user-col {
+    background-color: #ef5964;
+}
+
+
+.profile-card {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #34c1d3;
+}
+
+
+
+.stats {
+    background: #34c1d3 !important;
+    color: #ffffff !important
+}
+
+.articles {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.number1 {
+    font-weight: 500
+}
+
+.followers {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.number2 {
+    font-weight: 500
+}
+
+.rating {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.number3 {
+    font-weight: 500
+}
+
+
+
+
+.profile-picture {
+    padding-right: 10px;
+}
+
+.username {
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.username-link {
+    color: white;
+    text-decoration: none;
+}
+
+.username-link:hover {
+    color: #ef5964;
+    text-decoration: none;
+}
+
+.username-visited {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-bttn {
+    background-color: #ef5964;
+    border: 3px solid #ef5964;
+    border-radius: 20px;
+}
+
+.profile-bttn:hover {
+    background-color: #34c1d3;
+    border: 3px solid #ef5964;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.profile-link {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.edit {
+    background-color: #57bf8e;
+    border: none;
+}
+
+.delete {
+    background-color: #ef5964;
+    border: none;
+}
+
+.fa {
+    padding-right: 7px;
+}
+
+.scroll {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.milestones {
+    background-color: #ef5964;
+}
+
+.milestones-title {
+    padding-top: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 189px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #808080;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #57bf8e;
+    left: 180px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+
+
+
+
+
+
+
+.comment-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.comment-title {
+    color: black;
+}
+
+.single-comment {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dots {
+    height: 4px;
+    width: 4px;
+    margin-bottom: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.badge {
+    padding: 7px;
+    padding-right: 9px;
+    padding-left: 16px;
+    box-shadow: 5px 6px 6px 2px #e9ecef
+}
+
+.user-img {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.check-icon {
+    font-size: 17px;
+    color: #c3bfbf;
+    top: 1px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.form-check-input {
+    margin-top: 6px;
+    margin-left: -24px !important;
+    cursor: pointer;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.icons i {
+    margin-left: 8px;
+}
+
+.reply {
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 149px;
+    position: absolute;
+    left: -26px;
+}
+
+.like {
+    color: #57bf8e/*#ef5964*/;
+}
+
+.like:hover {
+    color: #ef5964 !important;
+}
+
+.reply small {
+    color: #b7b4b4
+}
+
+.reply small:hover {
+    color: green;
+    cursor: pointer
+}
+
+.comment-col {
+    background-color: #ef5964;
+}
+
+.empty {
+    background-color: #000563;
+}
+
+.project-h {
+    padding-top: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.milestone-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.comment-title {
+    padding-top: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.edit-button {
+    background-color: #34c1d3;
+}
+
+.edit-button:hover {
+    background-color: #34c1d3;
+}
+
+.delete-button {
+    background-color: #ef5964;
+}
+
+.delete-button:hover {
+    background-color: #ef5964;
+}

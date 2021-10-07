@@ -1,0 +1,81 @@
+body {
+    background-color: #000563;
+}
+
+.heading-row {
+    margin-top: 50px;
+}
+
+.title {
+    color: #000563;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+/*.new-project {
+    padding-top: 20px;
+}*/
+
+.nieuw-project {
+    margin-right: 20px;
+}
+
+.popup-heading {
+    background-color: #000563 !important;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-content {
+    background-color: /*#ef5964*/#fafafa !important;
+    border-radius: 25px;
+}
+
+.thumbnail {
+    font-size: 16px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 470px;
+    outline: none;
+}
+
+.project-images {
+    font-size: 16px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 470px;
+    outline: none;  
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    background: #ef5964;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    /*box-shadow: 1px 0 1px 1px #000000;*/
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+    background: #f54c57;
+}
+
+.input-shadow {
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    outline: none;
+
+}
+
+.postekst {
+    margin-top: 50px;
+}
+
+.e-icon {
+    padding-top: 15px;
+}
